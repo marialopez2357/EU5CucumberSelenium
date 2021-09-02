@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Account types
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 47.409 s <<< FAILURE! - in Account types
+Driver user(Account types)  Time elapsed: 23.753 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4886
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U8HC7EA', ip: '192.168.1.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4886
+Caused by: java.net.ConnectException: Connection refused: connect
+
+EMPTY_NAME(Account types)  Time elapsed: 23.656 s  <<< FAILURE!
+java.lang.AssertionError
+
